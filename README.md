@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React 作品集練習
 
-## Getting Started
+這個倉庫用來練習並展示我在前端開發過程中完成的作品集專案。  
+目前專案會以 **React** 為主，並持續更新不同練習作品。
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 作品集清單
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [待辦清單 (Todo List)](#-待辦清單-todo-list)
+- （未來新增其他作品...）
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✅ 待辦清單 (Todo List)
 
-## Learn More
+### 專案介紹
 
-To learn more about Next.js, take a look at the following resources:
+這是一個使用 **React** 製作的簡單待辦清單，主要用來練習元件拆分、狀態管理與事件處理。  
+使用者可以新增、刪除、完成或取消完成待辦事項。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 功能特色
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ➕ 新增待辦事項
+- 🗑️ 刪除待辦事項
+- ✔️ 切換完成/未完成狀態
+- 📋 清單顯示目前的待辦與完成項目
 
-## Deploy on Vercel
+### 技術棧
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React** - 元件化開發
+- **JavaScript (ES6+)** - 邏輯處理
+- **CSS / Tailwind**（可依實作情況更改）
